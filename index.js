@@ -33,6 +33,6 @@ app.patch("/api/bugs/:id", (req, res) => {
   res.json(bug);
 });
 
-app.listen(9001, () => {
-  console.log("Node server started on port 9001.");
+app.listen(5001, () => {
+  console.log("Node server started on port 5001.");
 });
